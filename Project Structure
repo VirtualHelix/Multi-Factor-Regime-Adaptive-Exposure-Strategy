@@ -1,0 +1,20 @@
+Multi-Factor-Regime-Adaptive-Exposure-Strategy/
+│
+├── src/
+│   ├── exposure_model.py          # Core multi-factor exposure engine
+│   ├── indicators.py              # Momentum, volatility, regime metrics
+│   ├── utils.py                   # Rolling statistics and helper functions
+│   └── backtest.py                # Backtesting and performance metrics
+│
+├── data/                          # Raw and cleaned market data (gitignored)
+│
+├── notebooks/
+│   └── exploratory_analysis.ipynb # Optional: factor exploration and tests
+│
+├── results/
+│   ├── equity_curve.png           # Strategy vs benchmark equity curve
+│   └── performance_summary.txt    # Saved performance metrics
+│
+├── requirements.txt               # Python dependencies
+├── .gitignore                     # Excludes data and cache files
+└── README.md                      # Full project documentation
