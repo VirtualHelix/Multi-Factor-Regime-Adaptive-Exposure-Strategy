@@ -20,3 +20,23 @@ This project implements a daily exposure strategy that integrates momentum facto
 	•	Sharpe ratio
 	•	Calmar ratio
 	•	Benchmark comparison against buy-and-hold
+
+
+
+# Data Requirements
+
+This project does not include raw financial datasets due to licensing restrictions.
+
+To run the Adaptive Exposure Model, you must provide a CSV file with the following columns:
+
+- QQQ_close
+- QQQ_today_close_to_tmrw_close_return
+- VIX
+- LT_Score
+- ST_Score
+
+Save your file in this directory as:
+
+    data/qqq_features.csv
+
+The file must contain daily data with a Date column or index.
